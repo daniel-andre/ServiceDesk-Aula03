@@ -38,6 +38,7 @@ public class Data {
         Fila fila = new Fila();
         fila.setId(FilaId.DESKTOPS.id());
         fila.setNome(FilaId.DESKTOPS.nome());
+        fila.setFigura(FilaId.DESKTOPS.figura());
         chamado.setFila(fila);
         lista.add(chamado);
 
@@ -50,6 +51,7 @@ public class Data {
         fila = new Fila();
         fila.setId(FilaId.TELEFONIA.id());
         fila.setNome(FilaId.TELEFONIA.nome());
+        fila.setFigura(FilaId.TELEFONIA.figura());
         chamado.setFila(fila);
         lista.add(chamado);
 
@@ -62,6 +64,7 @@ public class Data {
         fila = new Fila();
         fila.setId(FilaId.DESKTOPS.id());
         fila.setNome(FilaId.DESKTOPS.nome());
+        fila.setFigura(FilaId.DESKTOPS.figura());
         chamado.setFila(fila);
         lista.add(chamado);
 
@@ -74,6 +77,7 @@ public class Data {
         fila = new Fila();
         fila.setId(FilaId.PROJETO.id());
         fila.setNome(FilaId.PROJETO.nome());
+        fila.setFigura(FilaId.PROJETO.figura());
         chamado.setFila(fila);
         lista.add(chamado);
 
@@ -86,6 +90,7 @@ public class Data {
         fila = new Fila();
         fila.setId(FilaId.REDES.id());
         fila.setNome(FilaId.REDES.nome());
+        fila.setFigura(FilaId.REDES.figura());
         chamado.setFila(fila);
         lista.add(chamado);
 
@@ -98,6 +103,7 @@ public class Data {
         fila = new Fila();
         fila.setId(FilaId.ERP.id());
         fila.setNome(FilaId.ERP.nome());
+        fila.setFigura(FilaId.ERP.figura());
         chamado.setFila(fila);
         lista.add(chamado);
 
@@ -110,6 +116,7 @@ public class Data {
         fila = new Fila();
         fila.setId(FilaId.SERVIDORES.id());
         fila.setNome(FilaId.SERVIDORES.nome());
+        fila.setFigura(FilaId.SERVIDORES.figura());
         chamado.setFila(fila);
         lista.add(chamado);
 
@@ -122,6 +129,7 @@ public class Data {
         fila = new Fila();
         fila.setId(FilaId.VENDAS.id());
         fila.setNome(FilaId.VENDAS.nome());
+        fila.setFigura(FilaId.VENDAS.figura());
         chamado.setFila(fila);
         lista.add(chamado);
 

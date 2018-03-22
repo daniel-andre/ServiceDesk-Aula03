@@ -6,13 +6,14 @@ import java.io.Serializable;
  * Created by Daniel André dos Santos - RA: 816125541
  */
 
-class Fila implements Serializable{
+public class Fila implements Serializable{
     private int id;
-    private String nome;
+    private String nome, figura;
 
-    public Fila(int id, String nome) {
+    public Fila(int id, String nome, String figura) {
         this.id = id;
         this.nome = nome;
+        this.figura = figura;
     }
 
     public Fila(){}
@@ -31,5 +32,22 @@ class Fila implements Serializable{
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public String getFigura() {
+        return figura;
+    }
+
+    public void setFigura(String figura) {
+        this.figura = figura;
+    }
+
+    @Override
+    public String toString() {
+        return "Fila{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", figura='" + figura + '\'' +
+                '}';
     }
 }
